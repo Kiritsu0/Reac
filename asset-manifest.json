@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Kiritsu0/React-Drum-Machine/static/css/main.5790cd2b.css",
-    "main.js": "/Kiritsu0/React-Drum-Machine/static/js/main.46a09317.js",
-    "index.html": "/Kiritsu0/React-Drum-Machine/index.html",
-    "main.5790cd2b.css.map": "/Kiritsu0/React-Drum-Machine/static/css/main.5790cd2b.css.map",
-    "main.46a09317.js.map": "/Kiritsu0/React-Drum-Machine/static/js/main.46a09317.js.map"
+    "main.css": "/Drum-Machine/static/css/main.5790cd2b.css",
+    "main.js": "/Drum-Machine/static/js/main.46a09317.js",
+    "index.html": "/Drum-Machine/index.html",
+    "main.5790cd2b.css.map": "/Drum-Machine/static/css/main.5790cd2b.css.map",
+    "main.46a09317.js.map": "/Drum-Machine/static/js/main.46a09317.js.map"
   },
   "entrypoints": [
     "static/css/main.5790cd2b.css",
