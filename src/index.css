@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.App {
+  height: 100vh;
+  background-color: rgb(160, 162, 167);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#drum-machine {
+  display: flex;
+  flex-direction: column;
+  background-color: #beb7b7;
+  padding: 20px;
+  max-width: 600px;
+  border: 5px solid #cfcf1d;
+}
+
+#drum-machine i {
+  align-self: flex-end;
+  font-weight: 800;
+  font-family: elephant;
+  font-size: 1.6rem;
+}
+
+#display {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-right: 3rem;
+}
+
+.drum-pad {
+  width: 90px;
+  height: 70px;
+  margin: 5px;
+  font-weight: 800;
+  background-color: #6e6b6b;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px 0px rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+#screen {
+  width: 11rem;
+  height: 3rem;
+  background-color: rgb(110, 107, 107);
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.controlers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#volume-slider {
+  margin: 2rem;
+  width: 8.5rem;
+  cursor: pointer;
+}
+
+.power {
+  background-color: black;
+  width: 3.5rem;
+  height: 1.5rem;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.power>div {
+  background-color: rgb(18, 105, 187);
+  width: 25px;
+  height: 25px;
+  border-radius: 100px;
+  position: relative;
+  top: 0;
+  right: 0px;
+  transition: 0.4s;
+}
+
+.active {
+  background-color: #cfcf1d;
+}
